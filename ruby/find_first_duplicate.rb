@@ -1,4 +1,4 @@
-require 'pry'
+# require 'pry'
 
 def find_first_duplicate(arr)
   # type your code in here
@@ -20,6 +20,11 @@ if __FILE__ == $PROGRAM_NAME
 
   puts "Expecting: -1"
   puts "=>", find_first_duplicate([1, 2, 3, 4])
+
+  puts 
+
+  puts "Expecting: 7"
+  puts "=>", find_first_duplicate([1, 2, 3, 7, 4, 5, 7, 5])
 
   # Don't forget to add your own!
 end
